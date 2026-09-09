@@ -8,4 +8,4 @@ function calcularMDC(a, b) {
     return a;
 }
 
-console.log(calcularMDC(12, 18));
+module.exports = calcularMDC;
