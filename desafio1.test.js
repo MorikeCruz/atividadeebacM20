@@ -1,4 +1,4 @@
-const calcularMDC = require('./desafio1');
+const calcularMDC = require('./calcularMDC');
 
 test('Deve calcular o MDC de dois números', () => {
     expect(calcularMDC(12, 18)).toBe(6);

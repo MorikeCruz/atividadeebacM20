@@ -1,5 +1,4 @@
-const somaMultiplos = require('./desafio3');
-
+const somaMultiplos = require('./somarMultiplos');
 test('Deve retornar a soma dos múltiplos de 5 ou 7 abaixo de 1000', () => {
     expect(somaMultiplos()).toBe(156361);
 });

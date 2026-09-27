@@ -1,4 +1,4 @@
-const encontrarIndices = require('./desafio2');
+const encontrarIndices = require('./encontrarIndicesMaiorMenor');
 
 test('Deve encontrar o índice do maior e do menor valor', () => {
     const numeros = [10, 5, 20, 8, 15];
